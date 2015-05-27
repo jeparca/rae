@@ -13,9 +13,10 @@ definitions = b.spans(:class, 'b').map do |definition|
 	definition.text
 end
 
-definitions.empty?
+if definitions.empty?
 	puts 'No definitions were found.'
-
-puts definitions
+else
+	puts definitions
+end
 
 b.close
