@@ -16,6 +16,7 @@ end
 if definitions.empty?
 	puts 'No definitions were found.'
 else
+	puts "#{definitions.size} definition(s) found for word: " + word
 	puts definitions
 end
 
